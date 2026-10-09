@@ -1,0 +1,3014 @@
+{
+  "revision": "d91868143eb148bb5d87aa078e15ed3f8e1e7ed3",
+  "seed": 20261001,
+  "train_per_class": 40,
+  "test_per_class": 20,
+  "epochs": 100,
+  "frozen_backbone": true,
+  "input_size": 640,
+  "image_normalization": "ToTensor only, matching the upstream classifier configuration",
+  "feature_normalization": "Training-set mean and standard deviation, minimum standard deviation 0.05",
+  "samples": [
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2213.jpg",
+      "source_size": 1114721,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2213.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2213.jpg",
+      "sha256": "e3f997bf96467ce5e8372c1f842031ace37b2f5f1509d5e34f169602c39c29d2"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2326.jpg",
+      "source_size": 1114954,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2326.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2326.jpg",
+      "sha256": "0d681d209db9b5037fe88a1526c9aa43468cf58398f3650d6887b9d58fea25dd"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2396.jpg",
+      "source_size": 1115609,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2396.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2396.jpg",
+      "sha256": "d6a9e475b11d0d9b1b3c92282578fd06fbd92d3d43b25bd3368e06aa60e99acc"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2655.jpg",
+      "source_size": 1147178,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2655.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2655.jpg",
+      "sha256": "19084b8b9da706e00915903d17ce81c515e0c3da1c6e4c3829d6ed3c29fe9c17"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2778.jpg",
+      "source_size": 656512,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2778.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2778.jpg",
+      "sha256": "be4fd41a0556a1938d83bde1a1f5834837505937f50f0fecbbb42b6a792bb394"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2968.jpg",
+      "source_size": 813966,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2968.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2968.jpg",
+      "sha256": "da5fab66b020f60fcf2511959e670780abc144e01e6fc4659257e8afb718144f"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2844.jpg",
+      "source_size": 537004,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2844.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2844.jpg",
+      "sha256": "483b404467b3c90c0d3000eedf6c70d0c21260e18bf3dfc60e636608d75e81ae"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2411.jpg",
+      "source_size": 1148748,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2411.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2411.jpg",
+      "sha256": "082da5e4d4ee07b9eef9e8bfd288f114c0cf7e1cfb9318e94d96efb259e7831b"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA21208.jpg",
+      "source_size": 1118512,
+      "local_path": "adaptation/samples/train/0/DJI AVTA21208.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA21208.jpg",
+      "sha256": "f4599133f325b757ed4897ed924b070498fd7d939797ec784ef8f22b0f5543a1"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2788.jpg",
+      "source_size": 699758,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2788.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2788.jpg",
+      "sha256": "808e7ba5bf7abcdd7f567a5edda0d1743071fb5790a656ed6d82f863fd7c3d0e"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2122.jpg",
+      "source_size": 1208506,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2122.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2122.jpg",
+      "sha256": "42ef048bdcffbfa62612180a10c2e91647b9bd7c0d2c9c4295761ad4ce185b94"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA21238.jpg",
+      "source_size": 1111272,
+      "local_path": "adaptation/samples/train/0/DJI AVTA21238.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA21238.jpg",
+      "sha256": "9f80ca27488cf141c0a274312ee881a29571dc9a42762d52030797d60e5ffa1f"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2989.jpg",
+      "source_size": 777393,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2989.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2989.jpg",
+      "sha256": "99ce20eca394579a9ba67b0ca7052bdf5f9dadc66dba85ac90c854c03f933b15"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2976.jpg",
+      "source_size": 755900,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2976.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2976.jpg",
+      "sha256": "7ffe11924cf960696a243c4b5843d6e5d5a4d8622b461cf048a7adc1b02eb88e"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA21107.jpg",
+      "source_size": 936752,
+      "local_path": "adaptation/samples/train/0/DJI AVTA21107.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA21107.jpg",
+      "sha256": "cc597cc711cd0e54f71125addd0a1289a403c303319854e494f6369f0a7b6519"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2867.jpg",
+      "source_size": 922278,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2867.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2867.jpg",
+      "sha256": "af342c1258425ea9064d9ad663c6a8a61002951894bee1b68655a417c30fb4d0"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA21213.jpg",
+      "source_size": 1118253,
+      "local_path": "adaptation/samples/train/0/DJI AVTA21213.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA21213.jpg",
+      "sha256": "200d3e35a6f8814e576d37228f71268fcde6900f08a3f817e9fe9a542dd104d3"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2109.jpg",
+      "source_size": 1211795,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2109.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2109.jpg",
+      "sha256": "d035f8125623127dca92745b96792264141ae72c0b5c4d18fec8d0a3e4746862"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA21237.jpg",
+      "source_size": 1130285,
+      "local_path": "adaptation/samples/train/0/DJI AVTA21237.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA21237.jpg",
+      "sha256": "0b1987146192b956be46bfa660b637ca2f8478ac1188bba4b11341406687d4af"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2533.jpg",
+      "source_size": 1161055,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2533.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2533.jpg",
+      "sha256": "8edb2e0f0dd998d786fdc60542f40b7bb7ed95f58b3ac3127e0d28862307f4bd"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2405.jpg",
+      "source_size": 1139650,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2405.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2405.jpg",
+      "sha256": "d4edb1e3e565ea2a32ddc66c52ea2616e3d09428d7589bf9f6200c6efb93a0f4"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA215.jpg",
+      "source_size": 1123693,
+      "local_path": "adaptation/samples/train/0/DJI AVTA215.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA215.jpg",
+      "sha256": "e799a501fa3de62796c49a4ec2fce698b4cfdf8b657966ff575e4df16d46ab6b"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2336.jpg",
+      "source_size": 1121068,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2336.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2336.jpg",
+      "sha256": "5df4969647135a6e9bae020d60dbdf68f828a6d14a38850d69e8041eb34a861a"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2124.jpg",
+      "source_size": 1247698,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2124.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2124.jpg",
+      "sha256": "4fa5b7680c3a8125c5fb513870fbce17b0f72ba57ad21d47e57e17b0957f6057"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2674.jpg",
+      "source_size": 1159197,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2674.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2674.jpg",
+      "sha256": "14e00debf186f1b7725654b52bd8f019f1580a7421fae2e892902d595ed10e5b"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2228.jpg",
+      "source_size": 1105996,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2228.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2228.jpg",
+      "sha256": "6f07a214601b91ef6455c2ea2c16bafa385feef6ff6572be55a2b9b6c95cf94c"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2221.jpg",
+      "source_size": 1135046,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2221.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2221.jpg",
+      "sha256": "6ac3b0f3fedbfebad2b0776f0ba9dca5b2f1f0620539d6a6fef01d659c3c0500"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2988.jpg",
+      "source_size": 741918,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2988.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2988.jpg",
+      "sha256": "07a1c159a54ebb779a374e2654b7edf0c97938f9e3b2b1285cc268cff32762d1"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA21245.jpg",
+      "source_size": 1110185,
+      "local_path": "adaptation/samples/train/0/DJI AVTA21245.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA21245.jpg",
+      "sha256": "2b2b0308029bd516b7ef0a69a8fde131fa4c2161826223dfb213a7cb9fe8aec6"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2322.jpg",
+      "source_size": 1112743,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2322.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2322.jpg",
+      "sha256": "565119953688114b4032dc58350021352f15ef3fb68f7d8671bdee77633c3df4"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA21083.jpg",
+      "source_size": 854969,
+      "local_path": "adaptation/samples/train/0/DJI AVTA21083.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA21083.jpg",
+      "sha256": "911e080c7a38e47e091cf98fcfdc2727604ba319336f5d712d08a75ff9e925e9"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2210.jpg",
+      "source_size": 1116296,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2210.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2210.jpg",
+      "sha256": "8d67d9720e09e5a1703a2e4e3cf54a18c08699e4973d01235d328cd06efb8fa1"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2666.jpg",
+      "source_size": 1158487,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2666.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2666.jpg",
+      "sha256": "ae1c1ada577156093589b0564b7e7f20665871806bda95fa585d2f19095fb1e1"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2219.jpg",
+      "source_size": 1035230,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2219.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2219.jpg",
+      "sha256": "2b54cebdeab54788a1ec4b133634d240ced3784afdc6d4b0e60e05fef242d668"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2983.jpg",
+      "source_size": 669938,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2983.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2983.jpg",
+      "sha256": "c7efbc72f962326c29711d62f7f42aa6102994751fa7ce319ef53817dbcc6f50"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2225.jpg",
+      "source_size": 1069866,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2225.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2225.jpg",
+      "sha256": "a2df07ed934e07c89287cc76eb6962ee5d8046805a0aede9191d41eb44fe9ba3"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2542.jpg",
+      "source_size": 1161182,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2542.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2542.jpg",
+      "sha256": "6db39013f23a47b35032c1b3e5677b528c80718b6bfad55615dcb3ef919d55d0"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2528.jpg",
+      "source_size": 1159521,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2528.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2528.jpg",
+      "sha256": "82366af3ae375937020a93a4cf9d15da4345e533fb2f564d6f36dfda4132e835"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA21236.jpg",
+      "source_size": 1110341,
+      "local_path": "adaptation/samples/train/0/DJI AVTA21236.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA21236.jpg",
+      "sha256": "2b31947fdf6de8007d07e4f03ca2af59b2056c57c5c91831ec8ab52a7b4b6446"
+    },
+    {
+      "split": "train",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI AVATA2/DJI AVTA2409.jpg",
+      "source_size": 1108836,
+      "local_path": "adaptation/samples/train/0/DJI AVTA2409.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20AVATA2/DJI%20AVTA2409.jpg",
+      "sha256": "87ae242701eae5b3730d03600514c442dd88d51ced0ea40afcddc1868256af13"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1269.jpg",
+      "source_size": 716296,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1269.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1269.jpg",
+      "sha256": "3b80f8e94265765542aadbbfcd8147af2cec2437f927c1b37d0d2f136de8cf2d"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO525.jpg",
+      "source_size": 1167592,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO525.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO525.jpg",
+      "sha256": "4d10ea21523fba558caa3ccb43cb628b41057678cc7b3f5a98fe8cdcbfd66c3a"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1259.jpg",
+      "source_size": 645873,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1259.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1259.jpg",
+      "sha256": "7add79567a03226b85b05b1169f1df680c3328b6c4cd60b19c6924931012143e"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO840.jpg",
+      "source_size": 777481,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO840.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO840.jpg",
+      "sha256": "186f4ae4654bd84cc6eb9de24f82a5c106d5f7ae8d03ac026d72386969877d24"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO969.jpg",
+      "source_size": 992004,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO969.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO969.jpg",
+      "sha256": "524bc1caa37387bf76ab33387e9fbf4c116a2d69c2b9a38ae2ad23e6b7b637d2"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO402.jpg",
+      "source_size": 1196144,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO402.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO402.jpg",
+      "sha256": "cc71ef71e305842bc1a90f870b7ba0d72197c675ae929b24816075756464f5af"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO19.jpg",
+      "source_size": 1115770,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO19.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO19.jpg",
+      "sha256": "bbe36c6fe00f117a9da7f181a2734078f02cf4c26aa5ecf37f994ab65cbafc3a"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO249.jpg",
+      "source_size": 1176621,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO249.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO249.jpg",
+      "sha256": "91856227ae8aa29ea131197850f990b3fa91d847be99ddf7c1533cde1bd687ae"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO60.jpg",
+      "source_size": 1162356,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO60.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO60.jpg",
+      "sha256": "1647acbf27cc341bc9ae32c5cadcfdaba82f797e4dfdcbeb9016a827ebc95e25"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1366.jpg",
+      "source_size": 755967,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1366.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1366.jpg",
+      "sha256": "07b01853bb78ee4244d25d7c65770146eb71584511031500d687fc50ab54d659"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO967.jpg",
+      "source_size": 963833,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO967.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO967.jpg",
+      "sha256": "12cc5472507941d9867f95fe4ffc64813fd0655b6f269f4ba9bd6f6dfeb3c585"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1044.jpg",
+      "source_size": 863517,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1044.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1044.jpg",
+      "sha256": "0bce5fbb2ba44a3bbdbcff596dcbd3a89fa1a5a30c193b49d2086902117c7d2c"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO513.jpg",
+      "source_size": 1156965,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO513.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO513.jpg",
+      "sha256": "3fce83502ca3f786e1eac078d7be0fc4b57d75aa88740ebc0033ab2e7e40a952"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO857.jpg",
+      "source_size": 1140916,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO857.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO857.jpg",
+      "sha256": "dc6fb1e2b83a78d6d6e817e92585d109578b4fa4b2fef16607a461d2255a13f4"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO383.jpg",
+      "source_size": 1189648,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO383.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO383.jpg",
+      "sha256": "e4919445c641d17c5fcb59e1a6ccadb04f024560b10a38a48c79b1b355690040"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1348.jpg",
+      "source_size": 672174,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1348.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1348.jpg",
+      "sha256": "16ae1d9de9081526f92d35342964b7c477e785678b138f14564d82fcf4fbcfd1"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1325.jpg",
+      "source_size": 893495,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1325.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1325.jpg",
+      "sha256": "6d292de5bd64d5ec4d1cb196cef0b6c68352cc3637d92bfe85a5f765010915f6"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO3.jpg",
+      "source_size": 1115909,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO3.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO3.jpg",
+      "sha256": "7f76007966e4ab7518924344d99014deff000d88135774a0e343d843277450ea"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO494.jpg",
+      "source_size": 1116935,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO494.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO494.jpg",
+      "sha256": "9848ca99dc0e81ac82883fb640f7992aefad80bc7940b979dc958f12a330456f"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO663.jpg",
+      "source_size": 942294,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO663.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO663.jpg",
+      "sha256": "a9b2b9f89e4a021c75195fbf526b94819201df8118f3ccdd5ffdac932619b297"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO841.jpg",
+      "source_size": 818856,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO841.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO841.jpg",
+      "sha256": "1764d11b5e3d6575ba3908bca4cb4c5ed9df75d2efae47a0367069f5ab2c3536"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO496.jpg",
+      "source_size": 1120089,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO496.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO496.jpg",
+      "sha256": "23f741dbf62fadd3cdd466fc1907fc4287d1e0f0a7d6749aeff6230a67cdf0bb"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO858.jpg",
+      "source_size": 770695,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO858.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO858.jpg",
+      "sha256": "37f6c9b1b795a0efec3ec4e1c307ca700c78c264ad158fba2a186f80b22e5723"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO819.jpg",
+      "source_size": 805672,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO819.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO819.jpg",
+      "sha256": "88a3673aac166d592f36415651d5ad59f374ab55f5aa658dc6fb052272cd3760"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO676.jpg",
+      "source_size": 953917,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO676.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO676.jpg",
+      "sha256": "1676f85b37681eb45ef900d6b70e52a0bd88975eb4c30f39b6787eab5bc056dc"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1322.jpg",
+      "source_size": 648284,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1322.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1322.jpg",
+      "sha256": "0db0222c29d82a4260708e98182fc46d82d08009cbb67550603019aa63e67c5b"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1003.jpg",
+      "source_size": 906634,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1003.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1003.jpg",
+      "sha256": "7ba5a6424dbec74dc12ea51533dbf3256aa59571d6cec4669ebc1a157e98dd81"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO847.jpg",
+      "source_size": 850385,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO847.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO847.jpg",
+      "sha256": "54f6308eab1aa6d256fe4be567022c66555c578ea17889eb1698f5824640c967"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO848.jpg",
+      "source_size": 770603,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO848.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO848.jpg",
+      "sha256": "e1469be1a0cde60236f3b6d8285b5394de36683cfeb35dd705ba0ab2c1184a11"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO527.jpg",
+      "source_size": 1099677,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO527.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO527.jpg",
+      "sha256": "c6e319d3dfe75d8659ea30ca965697e18346cca9177918044a6590349e05d5e1"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO27.jpg",
+      "source_size": 1090855,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO27.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO27.jpg",
+      "sha256": "ebce0c8dd329c4edc103fa074b5a27410e8177b842754422aa0567a0b0c152c3"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO656.jpg",
+      "source_size": 933191,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO656.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO656.jpg",
+      "sha256": "9753c9b91f9585ae6e2b88205b0b67c2df7978792f2b6ac71176a6c2d513dfbb"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1293.jpg",
+      "source_size": 700217,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1293.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1293.jpg",
+      "sha256": "36490db6333da2986d3a3a27a38dccea26dc0709751efe85f8701c7e07f02666"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1332.jpg",
+      "source_size": 711462,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1332.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1332.jpg",
+      "sha256": "e9cf99ff6d24add080eeafcf6b66d3f198d87e3e63c551523702b3b0f360a9b2"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO22.jpg",
+      "source_size": 1132458,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO22.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO22.jpg",
+      "sha256": "28f463283bfacd2bb4938f2bfe37733eed9b871468b45da0a9dbb695e12aaae6"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO391.jpg",
+      "source_size": 1170355,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO391.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO391.jpg",
+      "sha256": "ad27b468cd666133e5ffd36bb0246792182f4bfcfab243e66c5ef2df84815113"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1039.jpg",
+      "source_size": 917427,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1039.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1039.jpg",
+      "sha256": "315e2a162c2a92cf21ac099ed1cf0ce0879ecae608acaede8d09d61fc02aecb5"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO39.jpg",
+      "source_size": 1156465,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO39.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO39.jpg",
+      "sha256": "5e91e62822a6504b566efde0caf02805d9a782b8245654b87d92405b1a447960"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO505.jpg",
+      "source_size": 1199479,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO505.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO505.jpg",
+      "sha256": "39b0f459ca361c07f81bd8690b3d3a82e5ab14c611f6726daf4aaf4adaca109c"
+    },
+    {
+      "split": "train",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI FPV COMBO/DJFPVCOMBO1245.jpg",
+      "source_size": 931839,
+      "local_path": "adaptation/samples/train/1/DJFPVCOMBO1245.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20FPV%20COMBO/DJFPVCOMBO1245.jpg",
+      "sha256": "21b808dcaf1fa7e452e9f9b8dbeda1acc51103f8e85c541053c89050691ce311"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO1011.jpg",
+      "source_size": 1113288,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO1011.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO1011.jpg",
+      "sha256": "a0f845b667c86bd41129c5f7179cea26a553ce738b3babced7c6f3354502f97c"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO870.jpg",
+      "source_size": 905364,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO870.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO870.jpg",
+      "sha256": "15940e92ac5e39a93e5f6d24250807900021459c39f4f73bb545494c63d0112f"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO10.jpg",
+      "source_size": 1163170,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO10.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO10.jpg",
+      "sha256": "41d5b89f94be39bd8a2a0719dc20b9a4938c025e8833236b882e71d87a7f27b0"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO463.jpg",
+      "source_size": 1164565,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO463.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO463.jpg",
+      "sha256": "363874c373efc4acf8af9a7581df33042158b46452205a5b5ac283d24a7ff796"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO194.jpg",
+      "source_size": 1167361,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO194.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO194.jpg",
+      "sha256": "480d2ae5438a6504a919bbf1c40ce9e0948283042d8dd345dc347359a3a74b12"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO750.jpg",
+      "source_size": 839220,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO750.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO750.jpg",
+      "sha256": "7c7cba273c28cf68700e7fba5af25a16520bd2db3255bd200f4e79c5d61fe7ad"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO43.jpg",
+      "source_size": 941298,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO43.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO43.jpg",
+      "sha256": "b10f07618b2a3db7822af45b33835a32216421d66d5310d6ebbf87b762d774db"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO764.jpg",
+      "source_size": 803601,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO764.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO764.jpg",
+      "sha256": "805fb1e09ac0f5bdf120bd753cf481257a5d098b0ab0d8f95c9ef8b6cef3c3cb"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO177.jpg",
+      "source_size": 1108029,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO177.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO177.jpg",
+      "sha256": "0fe9e9f50d595124762b7606c53b500f00cf0a8e078982e116d699b2482c5c73"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO982.jpg",
+      "source_size": 1056729,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO982.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO982.jpg",
+      "sha256": "ab1cfa1cafce40a4f190445c99f967d3043ae1a17069e1a224315c15822c84a2"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO488.jpg",
+      "source_size": 1169354,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO488.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO488.jpg",
+      "sha256": "545aade8ca66060a26e2ff9135df88e61a3bc1816c401a995757cbd2d0e01cdb"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO760.jpg",
+      "source_size": 522344,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO760.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO760.jpg",
+      "sha256": "66b4c7535ec174e6d4647509b8103c019f21473343da49c3d80e72dad679abde"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO444.jpg",
+      "source_size": 1152556,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO444.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO444.jpg",
+      "sha256": "e4b309a9124788e5aa0b23e3b8a65b4b09a7afc6db1d971d296ca1bac726c872"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO1024.jpg",
+      "source_size": 1090562,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO1024.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO1024.jpg",
+      "sha256": "9b21d0367088efe0bae7207cedffd252e0c0ab671fe21e61fd7d8cc35f87aa38"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO1006.jpg",
+      "source_size": 958321,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO1006.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO1006.jpg",
+      "sha256": "92aa8b4f261c1dd1b00096198c346ab1c0dbeaa390d8b78839c043b43ee23e36"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO739.jpg",
+      "source_size": 459596,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO739.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO739.jpg",
+      "sha256": "f9bb67bf90adff14c44b1a41bd0079589f6665ee92e4d1aebf9aaf90de8e478d"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO482.jpg",
+      "source_size": 1132122,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO482.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO482.jpg",
+      "sha256": "f593740ef3a079edad55daef1d1651e8c96d98fb47a5583aa50aa327b8fe305c"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO185.jpg",
+      "source_size": 1125577,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO185.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO185.jpg",
+      "sha256": "15cf773f40a315cd5ebb345b4fb11b0fa4d16b88dd5bbeabc171bd0fba4834b2"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO989.jpg",
+      "source_size": 1136740,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO989.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO989.jpg",
+      "sha256": "d3c4e41f3bff9b833ebc983b92a640415819dc38fe913d89c13e16d2811f02d0"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO187.jpg",
+      "source_size": 1159696,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO187.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO187.jpg",
+      "sha256": "6841b997f6879acff98d9ba80de29e8825c492076c097a4a2674414eabb4b3e6"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO757.jpg",
+      "source_size": 882757,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO757.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO757.jpg",
+      "sha256": "3877d3611534b0afbb03f0c391073385005107b45d0be3bde9839be919176e88"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO12.jpg",
+      "source_size": 1158359,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO12.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO12.jpg",
+      "sha256": "2c488c0c4337e30e55f659577ecc2d474c7382f51b4cbbded6f0d1cd9e791abb"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO231.jpg",
+      "source_size": 1151978,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO231.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO231.jpg",
+      "sha256": "8a98197e9aeb902fb16e9a3bc5c3597fff91f9348e3274e65b9e803918824815"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO845.jpg",
+      "source_size": 802096,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO845.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO845.jpg",
+      "sha256": "47ad8f4ee0ae01f30ba3f90c89a31543ab8bf39c755ac757256e8cb8b94b4544"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO747.jpg",
+      "source_size": 949647,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO747.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO747.jpg",
+      "sha256": "e6b34c91d0e5fe441e967196469a0b59d42932ddb97cbe9052af26c6b61ab3f1"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO234.jpg",
+      "source_size": 1089495,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO234.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO234.jpg",
+      "sha256": "94eac27b92878f53e05c0cee032f8f3b81a3c03dfe0ef75bf0784b5ea933859c"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO447.jpg",
+      "source_size": 1115338,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO447.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO447.jpg",
+      "sha256": "18ec2828c91ba3ed27cf201cae6ab79e2063413c57f008dc82e6962e855c0a3c"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO464.jpg",
+      "source_size": 1129333,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO464.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO464.jpg",
+      "sha256": "3bd2ae5fec94c7c039f426fef096c9a2ac37373d806178b0ef212789748f0faf"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO995.jpg",
+      "source_size": 1121592,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO995.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO995.jpg",
+      "sha256": "4ea33fb3cdeba4c8959c0af42e9a095e1829372e6dd4853178927e3561c7d8a9"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO460.jpg",
+      "source_size": 1141742,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO460.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO460.jpg",
+      "sha256": "96beaa5894cb7ce6e1bdbcf4a74794694f28a212ccf9b03c5e3a520f5dc30ba7"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO1016.jpg",
+      "source_size": 1154597,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO1016.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO1016.jpg",
+      "sha256": "7c2833901a72932a33594aea4c3dcacd1cfc129bbbbfaf06df9af6aae6d7f218"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO27.jpg",
+      "source_size": 1138095,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO27.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO27.jpg",
+      "sha256": "632d745dd36c24548c938bec87172ce3f96801343e5abed9c131b7a61eb0281d"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO212.jpg",
+      "source_size": 1089941,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO212.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO212.jpg",
+      "sha256": "6978021c48004914e23858f99cf1e3ad0c057a6e3fdc088ba79df41dd9bf7046"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO756.jpg",
+      "source_size": 353163,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO756.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO756.jpg",
+      "sha256": "64e0dc08ffac61bebeef00f815f5a6d7d51b32d3524e9dab69ef21effefeca1e"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO1017.jpg",
+      "source_size": 1143150,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO1017.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO1017.jpg",
+      "sha256": "1e377583c35802ea193a746d0512c600fbdceef9805087a4dafbb5e2dd57ea46"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO454.jpg",
+      "source_size": 1143477,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO454.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO454.jpg",
+      "sha256": "f588ba36680d676809018135bb8080f2463bd163fbaa33a345a31c3c4c9ca8b3"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO520.jpg",
+      "source_size": 1163817,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO520.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO520.jpg",
+      "sha256": "eeb5b07e4962476dd1248f3a9ff9c68e4ce52f40b104fa45d1f3678ac41c31a7"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO474.jpg",
+      "source_size": 1118741,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO474.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO474.jpg",
+      "sha256": "c60d4d3bc5befd957915070129cadfaeff2e1a628c8eed6640d1ca9ced34e5f9"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO1013.jpg",
+      "source_size": 1103128,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO1013.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO1013.jpg",
+      "sha256": "2db0f86ce707a7d60c470386f84c96cf706a6b30b98854dcf3fba6a0d3a071c4"
+    },
+    {
+      "split": "train",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MAVIC3 PRO/DJI MAVIC3PRO215.jpg",
+      "source_size": 1122153,
+      "local_path": "adaptation/samples/train/2/DJI MAVIC3PRO215.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO215.jpg",
+      "sha256": "6e14cfd3b9cd3b57cdd8ee13190c9a7962b480a6b30f53128d51486843035d81"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31361.jpg",
+      "source_size": 1149371,
+      "local_path": "adaptation/samples/train/3/DJI MINI31361.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31361.jpg",
+      "sha256": "980dac6120dd0f2f0059f9d23158d6dfee0ccdd5f412ad5193e6301357adf13c"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31126.jpg",
+      "source_size": 381835,
+      "local_path": "adaptation/samples/train/3/DJI MINI31126.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31126.jpg",
+      "sha256": "23fc91d1a8f8f77c01eb038be725ef9f36ae8ac709bcf3c5539e8866e5a131f2"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3799.jpg",
+      "source_size": 1148722,
+      "local_path": "adaptation/samples/train/3/DJI MINI3799.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3799.jpg",
+      "sha256": "290d6c58e09d345361a4004663aee5ba1ca5932748a05b39c6f44c84c58c0777"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3178.jpg",
+      "source_size": 1168210,
+      "local_path": "adaptation/samples/train/3/DJI MINI3178.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3178.jpg",
+      "sha256": "27c61f639747b3ff7d4f3856d206ca636d67b527011b5015176d6a0603b26901"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3219.jpg",
+      "source_size": 1177289,
+      "local_path": "adaptation/samples/train/3/DJI MINI3219.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3219.jpg",
+      "sha256": "e0360a798fa566119154f9f8fe4842fb396251a7e2941a51fe939b60b270503b"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31492.jpg",
+      "source_size": 1175142,
+      "local_path": "adaptation/samples/train/3/DJI MINI31492.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31492.jpg",
+      "sha256": "30c6d7a25f7ecb2bbfcad586616c26d65032dc81c6cd7f7fdfdae589f1ba682c"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3456.jpg",
+      "source_size": 1069081,
+      "local_path": "adaptation/samples/train/3/DJI MINI3456.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3456.jpg",
+      "sha256": "19e343e18d04edc4f758c7d69d9d4caf616f40ec37e4f2feea12cbf368055fcb"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31369.jpg",
+      "source_size": 1161353,
+      "local_path": "adaptation/samples/train/3/DJI MINI31369.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31369.jpg",
+      "sha256": "e52aaae5805696b2c9bc0bc25659b680ae191b7d314d94432e0d59903471720d"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3923.jpg",
+      "source_size": 328164,
+      "local_path": "adaptation/samples/train/3/DJI MINI3923.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3923.jpg",
+      "sha256": "b24c2c83f5412898d8d319d6b27ce54472c121dadbb7b6051cb4b3b1281d4db4"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3793.jpg",
+      "source_size": 1151440,
+      "local_path": "adaptation/samples/train/3/DJI MINI3793.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3793.jpg",
+      "sha256": "b354590ac29089bb2b01b372ad5b2a3a35b29926ebb96d36011d9b6b78efa175"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3662.jpg",
+      "source_size": 1160894,
+      "local_path": "adaptation/samples/train/3/DJI MINI3662.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3662.jpg",
+      "sha256": "1bb34ee1e4af5a3324ae522ece67be0b8c73af5ce972dd4dd55c72cdb40cc04a"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3644.jpg",
+      "source_size": 1162027,
+      "local_path": "adaptation/samples/train/3/DJI MINI3644.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3644.jpg",
+      "sha256": "acc24b5ab55da002503ba3fa8f457ee3cce210c29294008e802378dd41953fda"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31163.jpg",
+      "source_size": 403743,
+      "local_path": "adaptation/samples/train/3/DJI MINI31163.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31163.jpg",
+      "sha256": "911d0ff79fe12adb637fda179807dfb8fa717794a7119000765a9c959b8321c6"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3357.jpg",
+      "source_size": 1088463,
+      "local_path": "adaptation/samples/train/3/DJI MINI3357.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3357.jpg",
+      "sha256": "0e1fd6b49b938175d832952d109e0ef6fe241ce46271d0121dcc82126a850303"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31173.jpg",
+      "source_size": 388827,
+      "local_path": "adaptation/samples/train/3/DJI MINI31173.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31173.jpg",
+      "sha256": "ece36b44a0acb85bb4d777260fb372ecdab1e7c7de71367ab7544c82bc3f5912"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3490.jpg",
+      "source_size": 1127184,
+      "local_path": "adaptation/samples/train/3/DJI MINI3490.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3490.jpg",
+      "sha256": "1f9ce9108e241e363b579620073372ea49f4e878d3301e394b328c1538c52154"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3203.jpg",
+      "source_size": 1167523,
+      "local_path": "adaptation/samples/train/3/DJI MINI3203.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3203.jpg",
+      "sha256": "a4b072c5d194045ce37a775441c57475d93d569bd0120731d19bc79b14061021"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31378.jpg",
+      "source_size": 1156833,
+      "local_path": "adaptation/samples/train/3/DJI MINI31378.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31378.jpg",
+      "sha256": "39082fb2af01318352dd179159e46064f589f037db77380c538dd844fc74bd85"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31381.jpg",
+      "source_size": 1165582,
+      "local_path": "adaptation/samples/train/3/DJI MINI31381.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31381.jpg",
+      "sha256": "bb8424f5d4742e567c7af361b0d51b0b1620663e6724cd0c48e6b64afd61361a"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31147.jpg",
+      "source_size": 397676,
+      "local_path": "adaptation/samples/train/3/DJI MINI31147.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31147.jpg",
+      "sha256": "25caeb67705bca0bc00b7e752ca7f5d02616f240b7a848e4847a1de48612bbc8"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31479.jpg",
+      "source_size": 1156813,
+      "local_path": "adaptation/samples/train/3/DJI MINI31479.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31479.jpg",
+      "sha256": "4858f1052f16c98ebb2cc45d106d255e818ed7e56700feb3f1ff5e9e97eba0cf"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31363.jpg",
+      "source_size": 1153451,
+      "local_path": "adaptation/samples/train/3/DJI MINI31363.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31363.jpg",
+      "sha256": "3240c5cd2a32a2e953815415739c42442a5c24a1c9ada9d4fba0dfb66aa4aa28"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31488.jpg",
+      "source_size": 1171582,
+      "local_path": "adaptation/samples/train/3/DJI MINI31488.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31488.jpg",
+      "sha256": "6ba588a73a9932f014c7ef13418f77009228300d87aadc4082a79cddbfe52c47"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3220.jpg",
+      "source_size": 1169410,
+      "local_path": "adaptation/samples/train/3/DJI MINI3220.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3220.jpg",
+      "sha256": "34e111917ed7ae54e11ab18b1b38c83bcbfedaedcf8f565c5be7aa732112b344"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31485.jpg",
+      "source_size": 1167346,
+      "local_path": "adaptation/samples/train/3/DJI MINI31485.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31485.jpg",
+      "sha256": "9ad902ea90a4380fd6ad372367f0fd7861dfd9e45a17af2b76b473a0ef20523b"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI313.jpg",
+      "source_size": 1172027,
+      "local_path": "adaptation/samples/train/3/DJI MINI313.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI313.jpg",
+      "sha256": "5a7c349ab17cde26bbf9436b00865ace9497d74e66597c519670b27a7153fcd4"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3629.jpg",
+      "source_size": 1153561,
+      "local_path": "adaptation/samples/train/3/DJI MINI3629.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3629.jpg",
+      "sha256": "20bdbcba006071a794f5311e6bce4668ba4b56bd4c92aec5f3ac4989cde38bf4"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31478.jpg",
+      "source_size": 1172313,
+      "local_path": "adaptation/samples/train/3/DJI MINI31478.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31478.jpg",
+      "sha256": "b41788f7fabd437376df034c0bb67f5f869b93317c2ea0d35c35572a21183409"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3926.jpg",
+      "source_size": 322644,
+      "local_path": "adaptation/samples/train/3/DJI MINI3926.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3926.jpg",
+      "sha256": "ee7575542b75a5b7d92379003adaf5ef5a3ceb8c2295b2ba2cc8b3f8dc26dc1c"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31136.jpg",
+      "source_size": 356995,
+      "local_path": "adaptation/samples/train/3/DJI MINI31136.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31136.jpg",
+      "sha256": "1443c11f43fade563bdc2cda2bf414c58f8c7d4581888d7d63a3811d16126bef"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31174.jpg",
+      "source_size": 372219,
+      "local_path": "adaptation/samples/train/3/DJI MINI31174.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31174.jpg",
+      "sha256": "8c196eac0128229c43c90c0afdb4f47c5de6cba6ec26370dfd1cebb2d0142956"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI332.jpg",
+      "source_size": 1169241,
+      "local_path": "adaptation/samples/train/3/DJI MINI332.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI332.jpg",
+      "sha256": "d7c0ed4c806c5d8250d974c461b2bd0aef706d46a2a4e65d9d2b71968bc6fe7f"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3334.jpg",
+      "source_size": 1117034,
+      "local_path": "adaptation/samples/train/3/DJI MINI3334.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3334.jpg",
+      "sha256": "c7b3e6dc12d415c13e8bb67a40c81fdf9af0f97495a5be78e24fafa0e790e394"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31384.jpg",
+      "source_size": 1152236,
+      "local_path": "adaptation/samples/train/3/DJI MINI31384.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31384.jpg",
+      "sha256": "65d79951d6de5d4b1d7c413363bf1fbd4d849dfb30306296083964d09b14e5ae"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3208.jpg",
+      "source_size": 1167916,
+      "local_path": "adaptation/samples/train/3/DJI MINI3208.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3208.jpg",
+      "sha256": "ed9ab3ef06d151c673ba3e6920c4a101865f15d17ee073e4bbee1363d6f58e9d"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31130.jpg",
+      "source_size": 393062,
+      "local_path": "adaptation/samples/train/3/DJI MINI31130.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31130.jpg",
+      "sha256": "48254f673b03e2515957bea27c8e21c8f0319920f4e827e06240b3fb3167be11"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31469.jpg",
+      "source_size": 1139378,
+      "local_path": "adaptation/samples/train/3/DJI MINI31469.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31469.jpg",
+      "sha256": "5ca9fc40eec65747f00ca8f7a4b17dbe30b03885651c2ff875c9a5885d20e0dd"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI31494.jpg",
+      "source_size": 1140018,
+      "local_path": "adaptation/samples/train/3/DJI MINI31494.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI31494.jpg",
+      "sha256": "e251c2eb0d4525b5b0848af26156a089711e7335672f9e575623c010f4b6e994"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3932.jpg",
+      "source_size": 250439,
+      "local_path": "adaptation/samples/train/3/DJI MINI3932.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3932.jpg",
+      "sha256": "c2782a9527316616706b13d07aa5dcdf1f386818a78f5ab9cee96431bfda30c5"
+    },
+    {
+      "split": "train",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI3/DJI MINI3673.jpg",
+      "source_size": 1161570,
+      "local_path": "adaptation/samples/train/3/DJI MINI3673.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI3/DJI%20MINI3673.jpg",
+      "sha256": "489ee05f5837d0423f6d333e3bb4adb8d0f241b5a7357d05415ec72cc0ceed85"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO271.jpg",
+      "source_size": 714208,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO271.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO271.jpg",
+      "sha256": "2c28a5db535300d3bc515776325d2a9592e116e8ca25ed8dae8a43ec8af7f6d2"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO404.jpg",
+      "source_size": 478193,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO404.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO404.jpg",
+      "sha256": "7fb9feab034d74391b57361deda102c6d5abc3d3c39c3650f070edfba3d52fee"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO276.jpg",
+      "source_size": 1049975,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO276.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO276.jpg",
+      "sha256": "7b23cbed569fff0a531103ed8e9afa95a2fb0a9db35e7efa75cacf82f5c8a80c"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO371.jpg",
+      "source_size": 809388,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO371.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO371.jpg",
+      "sha256": "00d0e152971fd6729cddcb7b9e89079a031149cfce24d705cd2f2319dae62e54"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO19.jpg",
+      "source_size": 1165440,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO19.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO19.jpg",
+      "sha256": "fa4ec2bfd33e9ba9c012c18db7ce448848db7031e943c3fad48a573411056990"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO168.jpg",
+      "source_size": 1184014,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO168.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO168.jpg",
+      "sha256": "0e9617c939f93045c17c6ab09aa902e8831e24c951b773de6518ff9e7f650cb0"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO406.jpg",
+      "source_size": 788001,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO406.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO406.jpg",
+      "sha256": "21e4337e4575ace83f5631617e1d394891806026288bde8f3cc1484a9d9809d3"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO4.jpg",
+      "source_size": 1163326,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO4.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO4.jpg",
+      "sha256": "6df69015c4a8b7ca7c72d49790da903365f29ea802cfa39ef124177fc6a354d9"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO13.jpg",
+      "source_size": 1172712,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO13.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO13.jpg",
+      "sha256": "8a77c3ad8be842f7deaa2c141039dd7fa774ef1e62cc7b5e3a44873c914f7c20"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO167.jpg",
+      "source_size": 1179673,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO167.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO167.jpg",
+      "sha256": "ec54eb2bbc7d72eb41f01c4d3bacbae7a93ab137bb52e0112160badcb9fe3004"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO171.jpg",
+      "source_size": 1176897,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO171.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO171.jpg",
+      "sha256": "6ab762beaa2abc65b950cd81c76a1aa64d2b49312d9a8823464ea265d6482bbd"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO625.jpg",
+      "source_size": 1124762,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO625.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO625.jpg",
+      "sha256": "9f86901175a809a6962c961521212750cd0644aa409532a574db0f1ce9e9f27c"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO274.jpg",
+      "source_size": 1038858,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO274.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO274.jpg",
+      "sha256": "9643a1ff3bfa87f274880dc42d43ff8f310ce7f9c52bda07ee1ec8f50465179e"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO402.jpg",
+      "source_size": 771459,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO402.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO402.jpg",
+      "sha256": "735bb12758306bbc04469dd1016028dbd46c63ae06123fd2c3bdb21d9f31806b"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO273.jpg",
+      "source_size": 1035934,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO273.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO273.jpg",
+      "sha256": "31d67a58802062e2fcab48f236486944b3eacd0609f3d5b7b5a47a3a64894642"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO630.jpg",
+      "source_size": 1177604,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO630.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO630.jpg",
+      "sha256": "274163796f49444dbd3c16b2f75100aed3ae2b76f9d33b5fda4ad5801a945678"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO381.jpg",
+      "source_size": 803786,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO381.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO381.jpg",
+      "sha256": "3bee0c1b7e298b87637dfa5893194afc6a9d2f3b8b8ebdf3056f7110ec4df72a"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO534.jpg",
+      "source_size": 1157905,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO534.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO534.jpg",
+      "sha256": "34558cfe48f89c8af5cd4c135442b5bf6d6c4f8f4f315bd22b54be91398a99b8"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO374.jpg",
+      "source_size": 486027,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO374.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO374.jpg",
+      "sha256": "9336cdfbf1e5a4dab9ba97ccf1e70b404303c65266d5b3828fea6fc2ad448adb"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO520.jpg",
+      "source_size": 1176728,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO520.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO520.jpg",
+      "sha256": "46874a65d76338b2d17a6d439c7ffc0ab161496d9c999c038828dba1f12610c8"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO622.jpg",
+      "source_size": 876178,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO622.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO622.jpg",
+      "sha256": "eef96d99fc551368e4c21c96c27364c6f06c5e569ce9cd8b6e2c1923f4524617"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO367.jpg",
+      "source_size": 592370,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO367.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO367.jpg",
+      "sha256": "b92725cdaf612e7fdb6ec18d78f5c45291d1c86814bc93f47a840b7358a08413"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO260.jpg",
+      "source_size": 687738,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO260.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO260.jpg",
+      "sha256": "9f1654d3afb232d88cf694971eb789919d389aa33f698486bc25bc029f56beb5"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO10.jpg",
+      "source_size": 1142020,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO10.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO10.jpg",
+      "sha256": "07485257ec8a8a3ce5c0be66076acbb08b06ba209e01715c835c342a8d5c02f6"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO180.jpg",
+      "source_size": 1174162,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO180.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO180.jpg",
+      "sha256": "3e89aeb6407e682ca50514918c9b5eb453d6f8e6c4631614c0a39aaae043751d"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO363.jpg",
+      "source_size": 788958,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO363.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO363.jpg",
+      "sha256": "14bec28e992cea8a96b1ff21c6b8f7c6302fb3b9ece8cd6b873c9a353c0d0c71"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO372.jpg",
+      "source_size": 753224,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO372.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO372.jpg",
+      "sha256": "b138bc5263c6efdbb6a1070f92672c0a657a6c49557f4913af22ce7db37b10f3"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO364.jpg",
+      "source_size": 753891,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO364.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO364.jpg",
+      "sha256": "1be8a4918bfcbf734e0afe366fb169cb21f649eab9f4caa61437ccb668f0f007"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO7.jpg",
+      "source_size": 1172477,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO7.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO7.jpg",
+      "sha256": "56d5eeb03b3d86024a49c071590941b9c00e8fa9bba6dca1353635aaf6e4acf1"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO366.jpg",
+      "source_size": 449893,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO366.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO366.jpg",
+      "sha256": "a06d238d4f7dd9c57e58e987a55e790f9f1d18eaada64cebd3af5c297c434acc"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO9.jpg",
+      "source_size": 1172790,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO9.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO9.jpg",
+      "sha256": "c54e24c4a2ac5faa262f9f46e94631181eabb1f44891c239b8e790841b8b25fc"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO640.jpg",
+      "source_size": 1113314,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO640.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO640.jpg",
+      "sha256": "7159a95d61e2799594c8233043d037320c88437f6ade7fca4728ab7b9ee269cf"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO644.jpg",
+      "source_size": 1028921,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO644.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO644.jpg",
+      "sha256": "38c076dc65107eb3714e7cf1686db12c3262d6ff8c05b39aefef85e5ab24c53e"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO158.jpg",
+      "source_size": 1153378,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO158.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO158.jpg",
+      "sha256": "af75357bff16f41008e1fa51450d9bf3eef9071338ce1dd22979de7e94c3a9cb"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO258.jpg",
+      "source_size": 1063964,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO258.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO258.jpg",
+      "sha256": "5992efef44353a80e9b69daed4bd3c45c8ff1c97b7925a6c72518a6ca9ff5737"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO2.jpg",
+      "source_size": 1174288,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO2.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO2.jpg",
+      "sha256": "6c398eced0e45eaf86f3712a115db21013edc509c653cce02d574d8b05a692a0"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO268.jpg",
+      "source_size": 1034361,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO268.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO268.jpg",
+      "sha256": "f3386fa09e372b6ba2aa939da5e2592bee9de7e9f4646de1b8a7aa33aa9b512d"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO28.jpg",
+      "source_size": 1175738,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO28.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO28.jpg",
+      "sha256": "4d6d30ddcb92c4ed18afd3de8c69398fec0567b2f8f3026cc7ee27c422c8936b"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO527.jpg",
+      "source_size": 1176975,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO527.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO527.jpg",
+      "sha256": "9cf456a4a44fb65a73f90a92209ca68746f95558e2e76184a71f7ac790952554"
+    },
+    {
+      "split": "train",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/train/DJI MINI4 PRO/DJI MINI4PRO624.jpg",
+      "source_size": 1111734,
+      "local_path": "adaptation/samples/train/4/DJI MINI4PRO624.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/train/DJI%20MINI4%20PRO/DJI%20MINI4PRO624.jpg",
+      "sha256": "b9913e8a36efdb36ff3250dd3a45600e808261097b52dd0aac2b198ec9e53524"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2749.jpg",
+      "source_size": 1161567,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2749.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2749.jpg",
+      "sha256": "da8bdf2111f9f3e8aba148dec8be9927902b78bcc7964c2e6a4f564cad822aae"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA21130.jpg",
+      "source_size": 895068,
+      "local_path": "adaptation/samples/test/0/DJI AVTA21130.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA21130.jpg",
+      "sha256": "500f3b4a7acad9c4fcceb74dd48748885560036a2923122e558ad0f053c7924c"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA21155.jpg",
+      "source_size": 925808,
+      "local_path": "adaptation/samples/test/0/DJI AVTA21155.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA21155.jpg",
+      "sha256": "fb21e59f3ff026ec5de7d56b7bbffdcaf111fdfde0883d0a79216db34183f459"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2299.jpg",
+      "source_size": 1056766,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2299.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2299.jpg",
+      "sha256": "556b74a3f94f5bc5a408d5592ad08214e00af2f5bccc3d0a64f14ac2f9b717bc"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA21061.jpg",
+      "source_size": 810134,
+      "local_path": "adaptation/samples/test/0/DJI AVTA21061.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA21061.jpg",
+      "sha256": "9460a38b728d2bdd5f9d4536ee7a64dc835be23455ba662ec288fb2a0edc2831"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2708.jpg",
+      "source_size": 1155840,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2708.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2708.jpg",
+      "sha256": "7e1fdc986da62c4d7ac8981c52e7d6f769c9ab5c23b06d1f5e8b7c8b918285e3"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA21044.jpg",
+      "source_size": 797428,
+      "local_path": "adaptation/samples/test/0/DJI AVTA21044.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA21044.jpg",
+      "sha256": "f0e5f363ab69e02efbf8d89f4afd61525843e2e58b92300363fc7bd11eadc2b0"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA21051.jpg",
+      "source_size": 786972,
+      "local_path": "adaptation/samples/test/0/DJI AVTA21051.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA21051.jpg",
+      "sha256": "980bff5090ad1585839e6e12c5d0a69560308b434034e1c0653dc9720d0b3265"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2629.jpg",
+      "source_size": 1156088,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2629.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2629.jpg",
+      "sha256": "24ae7fb099c4cff4d8eaae5b92a2467f946e3ccf1dfee945a26eca6c3f475f70"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA21297.jpg",
+      "source_size": 1128205,
+      "local_path": "adaptation/samples/test/0/DJI AVTA21297.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA21297.jpg",
+      "sha256": "1e8543a8e6a146dbcb324f20f33440ee14fdc9d1f44c26f912c4c25dde4d78b0"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2147.jpg",
+      "source_size": 1209142,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2147.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2147.jpg",
+      "sha256": "619b21d8f56acdc0d4e0e29519b169cf764c0c8f0a301fc45aa369b5bd8cb34c"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2204.jpg",
+      "source_size": 1206110,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2204.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2204.jpg",
+      "sha256": "11dd55f04ca8b509b85b2598c162b225d7ac7357abdf171b95179dea35bf131a"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA21165.jpg",
+      "source_size": 933787,
+      "local_path": "adaptation/samples/test/0/DJI AVTA21165.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA21165.jpg",
+      "sha256": "ab0fc992f825a0fe84fdc766d543231f3ca174550ac2fa28af2af4557ae88343"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA21182.jpg",
+      "source_size": 942241,
+      "local_path": "adaptation/samples/test/0/DJI AVTA21182.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA21182.jpg",
+      "sha256": "732bab4932d2b59c4eac34e7d056a07d3e7474d8e1ba48891f9303873324a08a"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2368.jpg",
+      "source_size": 1121293,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2368.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2368.jpg",
+      "sha256": "fce7e514c482825f5ddce1b04f995d46085cdc2cdfd3121d2e51942392837cd6"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2508.jpg",
+      "source_size": 1129615,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2508.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2508.jpg",
+      "sha256": "64e9ff37a2dd059eab1cbf260e0693a2ea376ef4decfa5d4571fd02cb9d83bc3"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2887.jpg",
+      "source_size": 875512,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2887.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2887.jpg",
+      "sha256": "3694daf3b36a51c1eeb18c07234ce424a9235bd63839c751657b9ed542134758"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2894.jpg",
+      "source_size": 974795,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2894.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2894.jpg",
+      "sha256": "9f15c7bc1305599d231a8f93c8f100bec32d50cbcf4ce9a946367c4420899e64"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2891.jpg",
+      "source_size": 952653,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2891.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2891.jpg",
+      "sha256": "337d74524b4af8e568c36118d0ebe5cb25925931b578c5ad178226837cd3df03"
+    },
+    {
+      "split": "test",
+      "label_index": 0,
+      "label": "DJI AVATA2",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI AVATA2/DJI AVTA2440.jpg",
+      "source_size": 1139178,
+      "local_path": "adaptation/samples/test/0/DJI AVTA2440.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20AVATA2/DJI%20AVTA2440.jpg",
+      "sha256": "5861669f02c0e3f873ebf91aa5cff529b958164c95b3c0156ce209fe27a6770b"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO964.jpg",
+      "source_size": 1120499,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO964.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO964.jpg",
+      "sha256": "bf97110b61cdeeffbe697874aae3b2b45e557d9c6c80d521fb4c9dc8a911b716"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO1167.jpg",
+      "source_size": 922113,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO1167.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO1167.jpg",
+      "sha256": "e0f6e5ec02a72357a4818349bfaccb54b71cfd56d481b9c85af539ab6ce915ce"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO454.jpg",
+      "source_size": 1100789,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO454.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO454.jpg",
+      "sha256": "259346c6e7005e7e4496c0e5c1e9b429f0a757b377a52aac023ed59d5ac037f6"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO1463.jpg",
+      "source_size": 839238,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO1463.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO1463.jpg",
+      "sha256": "7b105891515d8d80d743c0f1dc937a97a6a356a03a10e765f5101d67c76ad64f"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO1391.jpg",
+      "source_size": 981558,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO1391.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO1391.jpg",
+      "sha256": "aa5057e999cb67738091de67a4a6af41b4a4c3f0e595b337ecc397d54b5a8057"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO583.jpg",
+      "source_size": 1174244,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO583.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO583.jpg",
+      "sha256": "c76fba39e8e4fa7bbcc3196ae1e3e09763171e17199c4df3c22b0b54362e6416"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO1127.jpg",
+      "source_size": 846706,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO1127.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO1127.jpg",
+      "sha256": "479e2383007ff76e6c2af5ca43bfeebc8359ede0f8908bdefd1c61612fc7c944"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO1545.jpg",
+      "source_size": 885030,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO1545.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO1545.jpg",
+      "sha256": "d231b529d045b207f03e5a7bd051d61cb3162e93861fbc16839c97970baf752c"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO563.jpg",
+      "source_size": 1113543,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO563.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO563.jpg",
+      "sha256": "6bb09269e79544f12d2c1e722bfdcbc66fbebd8d5e8b4e0aa7a949082b148b6b"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO87.jpg",
+      "source_size": 1124647,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO87.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO87.jpg",
+      "sha256": "bb8284111272e28e3ebf1865917ba8626371dbc6ab96fe5dceaae11bf45775b3"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO737.jpg",
+      "source_size": 872473,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO737.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO737.jpg",
+      "sha256": "ef37e63824917386049250b164effa07fda8c01849af42c1dcb2a68c0fff90db"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO1526.jpg",
+      "source_size": 943097,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO1526.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO1526.jpg",
+      "sha256": "d4931013787a7bef225434d30455f368325cdcc4a2d9ad029294638f2204d072"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO1514.jpg",
+      "source_size": 956591,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO1514.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO1514.jpg",
+      "sha256": "daedf65ca23ad462cbc2bb59393a6fa292427ae427f176f549f5984de48036e6"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO950.jpg",
+      "source_size": 1098462,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO950.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO950.jpg",
+      "sha256": "f3c6b472c63239e8e9d94485b868b51a882ab68a9f60058358ae7d020c995f6e"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO568.jpg",
+      "source_size": 1090676,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO568.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO568.jpg",
+      "sha256": "5b69e107b7c130690da2f6b873e6b5a009391a33725732be2f3908cd5dda0413"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO961.jpg",
+      "source_size": 1029399,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO961.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO961.jpg",
+      "sha256": "7e21a6a99db136ba73b290d9c3dbdc84583407420039ecef27ca8add98424598"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO640.jpg",
+      "source_size": 1078139,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO640.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO640.jpg",
+      "sha256": "25446d2ec359ee608807df8e2cd91651a21bb780d57403dd724bd57b92fe6176"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO317.jpg",
+      "source_size": 1176564,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO317.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO317.jpg",
+      "sha256": "b62d656613a66de9e5db0a12c75ee2692b1471fdcba7e70cd4988d08f9c2c9e4"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO1539.jpg",
+      "source_size": 963374,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO1539.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO1539.jpg",
+      "sha256": "994a129d4b0e603e0eab6833bacf3a80025ebd975efb8f2004b5d93cfd581777"
+    },
+    {
+      "split": "test",
+      "label_index": 1,
+      "label": "DJI FPV COMBO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI FPV COMBO/DJFPVCOMBO926.jpg",
+      "source_size": 1113015,
+      "local_path": "adaptation/samples/test/1/DJFPVCOMBO926.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20FPV%20COMBO/DJFPVCOMBO926.jpg",
+      "sha256": "05969562e5f207d03e3eaa1ea00855f58fa5f340593597348beab35c77fd2228"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO1107.jpg",
+      "source_size": 1169472,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO1107.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO1107.jpg",
+      "sha256": "1e8fffedd3d0656e5139e03bd4e88887d1bb5eb7d9924a197cd3049d5819e57e"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO145.jpg",
+      "source_size": 1062582,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO145.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO145.jpg",
+      "sha256": "4d0f5f68aa5118ef8b9979e1200f09db1abddb7ade45f93b96794a93d4c35dab"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO248.jpg",
+      "source_size": 1098186,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO248.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO248.jpg",
+      "sha256": "7ff698c149f1735fcc8b54373a63559c79d2185972cca14fc36c77924c88187c"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO280.jpg",
+      "source_size": 1160336,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO280.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO280.jpg",
+      "sha256": "b5a4492785e34d56fba44dd5009f9b3310316e2e86fb7f9e885d51e2f06b0ff8"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO807.jpg",
+      "source_size": 331858,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO807.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO807.jpg",
+      "sha256": "f912948e8ccb68d9556ded50f267ba288f96c3e68c3265b351662b4f7e20bacd"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO803.jpg",
+      "source_size": 832878,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO803.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO803.jpg",
+      "sha256": "e7ec94192c0745de40cefb8562db9d84049b954853658ec133f8b2132735aea2"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO134.jpg",
+      "source_size": 1042431,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO134.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO134.jpg",
+      "sha256": "27d5005dc123d5b9321edf1d32b8d22c26a87d17a60fc00afa9b20a8904fc261"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO1074.jpg",
+      "source_size": 1111443,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO1074.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO1074.jpg",
+      "sha256": "192d4f99884d810c0cd0ed8443609c1f73d9d7acfa1283de7726a05abcba4a83"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO697.jpg",
+      "source_size": 1136089,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO697.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO697.jpg",
+      "sha256": "aaa4db6bfdc5723a08097890affae10729af20efe42fab314d176b4d6a3b8091"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO343.jpg",
+      "source_size": 1126075,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO343.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO343.jpg",
+      "sha256": "9d97f7dd46fcfcb76b5bbb0749288fbc2062ca383288c4315f0ca762589b941d"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO698.jpg",
+      "source_size": 1156545,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO698.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO698.jpg",
+      "sha256": "db882932b0456a63a82d320c334bfb71cc0bf39096b703777141833d34879980"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO960.jpg",
+      "source_size": 998652,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO960.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO960.jpg",
+      "sha256": "7f52afab395487d9bf7becc624452b14de9ff177b86458b26b8cfb4f9fd5a8c2"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO906.jpg",
+      "source_size": 631936,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO906.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO906.jpg",
+      "sha256": "9cc2ae7e49a4abd99437b030357610269d3f8c4e3fd63c1bccc0483f4d2ef552"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO926.jpg",
+      "source_size": 954103,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO926.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO926.jpg",
+      "sha256": "1009574ad2dab1599dfa05938838828ff3d4c4e64158550edc076eec3cf35c19"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO677.jpg",
+      "source_size": 1083047,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO677.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO677.jpg",
+      "sha256": "248df459b202d7a9d6922ff40c131821b412a30ddf83d567f3ab67ff595a6370"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO115.jpg",
+      "source_size": 1109579,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO115.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO115.jpg",
+      "sha256": "c784014c530ec84877f5cbb24e58ba1dfe8095f668a6b0bacca8bbc9ed480386"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO264.jpg",
+      "source_size": 1162850,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO264.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO264.jpg",
+      "sha256": "eb43a5d268cbc9b6295d24b85026730a01ae9389b5bebc011ec8d6e15c2d90ab"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO624.jpg",
+      "source_size": 1153871,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO624.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO624.jpg",
+      "sha256": "52525096be099ed75cd70b492054a22a0853a0806564ba2255d836432753bed6"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO980.jpg",
+      "source_size": 259612,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO980.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO980.jpg",
+      "sha256": "38d01a03c38be48d7c21230527ac1cab86076d08957ef955627b8159975d954d"
+    },
+    {
+      "split": "test",
+      "label_index": 2,
+      "label": "DJI MAVIC3 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MAVIC3 PRO/DJI MAVIC3PRO275.jpg",
+      "source_size": 1131331,
+      "local_path": "adaptation/samples/test/2/DJI MAVIC3PRO275.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MAVIC3%20PRO/DJI%20MAVIC3PRO275.jpg",
+      "sha256": "15e5208f7953bb634adddf999160058a113febcb33e7db68c351f79e64b7b3dc"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31521.jpg",
+      "source_size": 1161743,
+      "local_path": "adaptation/samples/test/3/DJI MINI31521.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31521.jpg",
+      "sha256": "48abb94fc7d9ed6119dab00b961e3b68927c567c47358f1c8c2886c20685cdcd"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3411.jpg",
+      "source_size": 1104793,
+      "local_path": "adaptation/samples/test/3/DJI MINI3411.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3411.jpg",
+      "sha256": "a33086e9da601a80aa6fa7e2997e3ba76dd38529ce3fa0cd0d1de93df4ffc4d8"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3558.jpg",
+      "source_size": 1082801,
+      "local_path": "adaptation/samples/test/3/DJI MINI3558.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3558.jpg",
+      "sha256": "673df55c53bf2f2f739dd3e7b16e764ff93cf09d5d0a6c6a4806e09b870c8081"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3876.jpg",
+      "source_size": 1164543,
+      "local_path": "adaptation/samples/test/3/DJI MINI3876.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3876.jpg",
+      "sha256": "587550043c10b7e51dc4dc572ae0507dc49c0448be8574d193658aee907cb395"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31037.jpg",
+      "source_size": 262085,
+      "local_path": "adaptation/samples/test/3/DJI MINI31037.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31037.jpg",
+      "sha256": "cdb5eb4dbbb24ed17bd03cb7032155b90a08af7c4eea36b5894c6ff91b83c105"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31557.jpg",
+      "source_size": 1170139,
+      "local_path": "adaptation/samples/test/3/DJI MINI31557.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31557.jpg",
+      "sha256": "458dc9cec3eefb9d0b85dd8742f76b9e517ebc26ef0a344c300142bb004f869c"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3589.jpg",
+      "source_size": 1093795,
+      "local_path": "adaptation/samples/test/3/DJI MINI3589.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3589.jpg",
+      "sha256": "741845e838fa15aeea376f0b6973bad3533b837b8df3bdabb15427ec44db7f34"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31011.jpg",
+      "source_size": 364402,
+      "local_path": "adaptation/samples/test/3/DJI MINI31011.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31011.jpg",
+      "sha256": "eba7cd08ad66f9f605b5193711cc7a58d8aba7c95258206c0499b9bfe203ecb3"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31205.jpg",
+      "source_size": 377853,
+      "local_path": "adaptation/samples/test/3/DJI MINI31205.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31205.jpg",
+      "sha256": "50359d0a9148c7ded52b857c2f46a0d1938093ba7881ca521aae7b03e206ef87"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3765.jpg",
+      "source_size": 1156202,
+      "local_path": "adaptation/samples/test/3/DJI MINI3765.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3765.jpg",
+      "sha256": "401cc341daa97f64c493451f4d732c7c97f1b96bdcfde855c24bbab541c6e9a9"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3567.jpg",
+      "source_size": 1110180,
+      "local_path": "adaptation/samples/test/3/DJI MINI3567.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3567.jpg",
+      "sha256": "6e50f0f0d9fa74079f1c73786b45dcf62628e444db772252d271dcb5153e2921"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31054.jpg",
+      "source_size": 276237,
+      "local_path": "adaptation/samples/test/3/DJI MINI31054.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31054.jpg",
+      "sha256": "7efd3415be3541e38e447dc7213174b4cc8891bba51a1ab66be5c6927e13af0d"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3749.jpg",
+      "source_size": 1162233,
+      "local_path": "adaptation/samples/test/3/DJI MINI3749.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3749.jpg",
+      "sha256": "c7b2726c63acfa7aa897660925ba7f89556984d1220309b292e79d9e5d64c6bb"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3140.jpg",
+      "source_size": 1172194,
+      "local_path": "adaptation/samples/test/3/DJI MINI3140.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3140.jpg",
+      "sha256": "9ab3fc7852431275969b2e3477f3471cd3b97ca67ca8b7744661fb58eaa4084b"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3825.jpg",
+      "source_size": 1140885,
+      "local_path": "adaptation/samples/test/3/DJI MINI3825.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3825.jpg",
+      "sha256": "2c314e03dbc75ce316aaef840063844903f2ccae5059f36486ea11037f02db50"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31579.jpg",
+      "source_size": 1162847,
+      "local_path": "adaptation/samples/test/3/DJI MINI31579.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31579.jpg",
+      "sha256": "37dd1ed01ab6f2e24ce5edc4454ed2473f8fe4789676082ac4119541e485ea77"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31285.jpg",
+      "source_size": 378709,
+      "local_path": "adaptation/samples/test/3/DJI MINI31285.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31285.jpg",
+      "sha256": "685fa86edb517c6ed0efd191479a663fcf87d002b120eef2f65522e88672ebff"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3297.jpg",
+      "source_size": 1173245,
+      "local_path": "adaptation/samples/test/3/DJI MINI3297.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3297.jpg",
+      "sha256": "cd919054e4e752e1f93dc05c07b8aeccc660db4fdb63641c4a1f0a9592550667"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI3308.jpg",
+      "source_size": 1174505,
+      "local_path": "adaptation/samples/test/3/DJI MINI3308.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI3308.jpg",
+      "sha256": "d01576b18c9555131cf670b8a4d8bffc890caa10ff8ef83196711dbe58a139c9"
+    },
+    {
+      "split": "test",
+      "label_index": 3,
+      "label": "DJI MINI3",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI3/DJI MINI31528.jpg",
+      "source_size": 1157044,
+      "local_path": "adaptation/samples/test/3/DJI MINI31528.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI3/DJI%20MINI31528.jpg",
+      "sha256": "6a1f21b6da9ba122ec07dd55195b79b4ebe80d4799c569cb28288474b11d2c3b"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO296.jpg",
+      "source_size": 1035069,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO296.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO296.jpg",
+      "sha256": "e1f76c8c7da4e3faa713d5f7e4a0a2d493e3fab623f48bd56f03b95f3e2e237b"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO320.jpg",
+      "source_size": 629362,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO320.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO320.jpg",
+      "sha256": "ecc943a50e37dbfecb28311695628bc36b907edc3566e78877bcbd56cf474a0e"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO232.jpg",
+      "source_size": 1182558,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO232.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO232.jpg",
+      "sha256": "9605eeab367402e80112755866695fc0e7dd083ec672c1bcdb0622e50eb4c80b"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO688.jpg",
+      "source_size": 1029806,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO688.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO688.jpg",
+      "sha256": "4a44bf26afd813a4e001d0b592e25d105b2ad303bb148098ba42ae9ce308eb85"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO340.jpg",
+      "source_size": 999560,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO340.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO340.jpg",
+      "sha256": "844de657453bc269f8e310b93ec6599714be51b8886f8af469ba86d0798bdfab"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO70.jpg",
+      "source_size": 1168033,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO70.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO70.jpg",
+      "sha256": "458f6c2e80d0f78cdc001d354a8cea1f226c1c9503d4523ce5fe458b7657c55b"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO512.jpg",
+      "source_size": 826953,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO512.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO512.jpg",
+      "sha256": "386f176c9c0ea10864178b9ad6f57227a90f97bd2c4e60188f1fee9e327a0ba3"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO341.jpg",
+      "source_size": 1035095,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO341.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO341.jpg",
+      "sha256": "225dd598d6117b2ba02d20ad987bbb2d4af8a9e3027730a7212a1d874ef91503"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO731.jpg",
+      "source_size": 1146962,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO731.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO731.jpg",
+      "sha256": "3941b0d0bc1b80e9b5f8769bc824fa8a990abfac07cee52918e7c7d4508b0b91"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO554.jpg",
+      "source_size": 1176311,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO554.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO554.jpg",
+      "sha256": "b3fbebf19c1a17a4a21d8b2d60855025c7548d608c3e7c6f4c1828fdec74e76b"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO355.jpg",
+      "source_size": 1049328,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO355.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO355.jpg",
+      "sha256": "1f76d3ff3c6611c586c7fdedfcd08ab2fa07a7b5d10d6abd9b7bcdc2c436920f"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO127.jpg",
+      "source_size": 1169286,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO127.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO127.jpg",
+      "sha256": "931fa710285a4a6625f00a4feb1a6dee7d69ebabb6cbb5fd4828c8bf70ad61f5"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO549.jpg",
+      "source_size": 1160678,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO549.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO549.jpg",
+      "sha256": "1c33cd46fc852b5a11e922293f0c7943db3edc37346b6d8745b27d5aa7c9e1ad"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO485.jpg",
+      "source_size": 793622,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO485.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO485.jpg",
+      "sha256": "e7e9d4a01cc40ccddb836288e2ba4d5bb6749592425987dc96792e7981ac362f"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO577.jpg",
+      "source_size": 1164456,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO577.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO577.jpg",
+      "sha256": "e6c3ad5a1bb61c2b0942ec553bb832952567b9980be4991cae847682f172c5d9"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO149.jpg",
+      "source_size": 1170284,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO149.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO149.jpg",
+      "sha256": "0d1cec21f8c3e2889cb94c1ad097d260d4915f91200b5396e9cd144c61c09d21"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO759.jpg",
+      "source_size": 1133344,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO759.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO759.jpg",
+      "sha256": "7b15f6bec133e69c28ee95f091acd39711ee2cb7d5db6347b87ce06e58541ad3"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO197.jpg",
+      "source_size": 1174891,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO197.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO197.jpg",
+      "sha256": "8c9152824b2c0bab644da34e0ee66a4f36ff161420ed67ef6b376e50b72270ad"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO751.jpg",
+      "source_size": 995748,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO751.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO751.jpg",
+      "sha256": "f3b694da457c30c72f9bb9cac9dac8bb6987463a4d6735813d98d88c2dde5c72"
+    },
+    {
+      "split": "test",
+      "label_index": 4,
+      "label": "DJI MINI4 PRO",
+      "source_path": "ImageSet-AllDrones-MatlabPipeline/valid/DJI MINI4 PRO/DJI MINI4PRO357.jpg",
+      "source_size": 988063,
+      "local_path": "adaptation/samples/test/4/DJI MINI4PRO357.jpg",
+      "url": "https://huggingface.co/datasets/kitofrank/RFUAV/resolve/d91868143eb148bb5d87aa078e15ed3f8e1e7ed3/ImageSet-AllDrones-MatlabPipeline/valid/DJI%20MINI4%20PRO/DJI%20MINI4PRO357.jpg",
+      "sha256": "52314b1d223914752c655d7f33c3f39b30cf02ec0c5fc62e8ac2d1067a2949bb"
+    }
+  ],
+  "train_test_exact_hash_overlap": 0
+}

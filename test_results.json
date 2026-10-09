@@ -1,0 +1,92 @@
+{
+  "method": "Raw-I/Q numerical features; own ExtraTrees/RandomForest/logistic ensemble",
+  "receiver_profile": "public USRP X310 captures, 100 MS/s, cf32 little-endian, offline virtual replay",
+  "clean_temporal_test": {
+    "total": 15,
+    "correct": 15,
+    "wrong": 0,
+    "abstained": 0
+  },
+  "source_count": 3,
+  "model_sha256": "d8d15700c72515a9f4968dc1a15bcc0f4a94800122fbf643e1032c3dae4c2b24",
+  "label_basis": "published nominal transmission family of the source equipment",
+  "limits": [
+    "One known equipment model per nominal family in training.",
+    "Temporal splits are not independent recording sessions.",
+    "The external Mini 4 Pro recording is rejected as unknown; broader O4 transfer is not established.",
+    "Actual negotiated protocol version is not decoded; no payload/video decryption.",
+    "Different sample rates, devices, receivers and field conditions remain outside measured coverage."
+  ],
+  "sources": [
+    "https://huggingface.co/datasets/kitofrank/RFUAV",
+    "https://arxiv.org/abs/2503.09033",
+    "https://www.dji.com/mini-3/specs",
+    "https://www.dji.com/avata-2/specs",
+    "https://www.dji.com/newsroom/news/dji-reinvents-the-drone-flying-experience-with-the-dji-fpv"
+  ],
+  "metadata_qualification": "Mini3 pack2 has adjacent pack1.xml, not a matching pack2 header; 100MS/s is adopted from dataset documentation. Per-capture exact timing and negotiated protocol are unverified.",
+  "added_noise_tests": {
+    "clean": {
+      "total": 15,
+      "correct": 15,
+      "wrong_accepted": 0,
+      "unknown": 0
+    },
+    "added_noise20": {
+      "total": 15,
+      "correct": 15,
+      "wrong_accepted": 0,
+      "unknown": 0
+    },
+    "added_noise10": {
+      "total": 15,
+      "correct": 14,
+      "wrong_accepted": 0,
+      "unknown": 1
+    },
+    "added_noise0": {
+      "total": 15,
+      "correct": 3,
+      "wrong_accepted": 0,
+      "unknown": 12
+    },
+    "frequency_offset500k": {
+      "total": 15,
+      "correct": 15,
+      "wrong_accepted": 0,
+      "unknown": 0
+    },
+    "echo1us": {
+      "total": 15,
+      "correct": 15,
+      "wrong_accepted": 0,
+      "unknown": 0
+    }
+  },
+  "external_tests": {
+    "background": {
+      "source_sha256": "5612853a4811f9691a1b998b44d72a879cf8a5810c2e043d5be75b523122d721",
+      "source_was_used_in_training": false,
+      "total": 10,
+      "correct": 10,
+      "wrong_accepted": 0,
+      "unknown": 10
+    },
+    "mini4pro_other_receiver": {
+      "source_sha256": "0aa5884ca6ff5c370324cc0711746533b32ab21e9970197149e0ef7f5ee6ec3e",
+      "source_was_used_in_training": false,
+      "total": 10,
+      "correct": 0,
+      "wrong_accepted": 0,
+      "unknown": 10
+    },
+    "fpv_video_bandwidth10": {
+      "source_sha256": "df5c838088de9af54c8ea4f98049303071e2d3640da77201cba51f5f8faf07ba",
+      "source_was_used_in_training": false,
+      "total": 100,
+      "correct": 91,
+      "wrong_accepted": 0,
+      "unknown": 9
+    }
+  }
+}

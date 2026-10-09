@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.iq binary
+*.joblib binary
+*.pt binary

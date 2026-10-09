@@ -1,0 +1,27 @@
+{
+  "classes": [
+    "OCU2",
+    "OCU3",
+    "OCU4",
+    "OTHER"
+  ],
+  "recipe": {
+    "sample_rate_hz": 100000000,
+    "window_samples": 1000000,
+    "window_seconds": 0.01,
+    "fft_points": 2048,
+    "stft_window": "symmetric_hamming",
+    "hop_samples": 1024,
+    "magnitude_db_floor_relative_to_peak": -60,
+    "frequency_order": "fftshifted_low_to_high",
+    "feature_input": "complex_samples_only_no_filename_or_device_metadata"
+  },
+  "threshold": 0.65,
+  "margin": 0.15,
+  "model_sha256": "d8d15700c72515a9f4968dc1a15bcc0f4a94800122fbf643e1032c3dae4c2b24",
+  "training_rows": 360,
+  "source_recordings": 3,
+  "hardware_differentiation_and_family_are_confounded": true,
+  "mode": "offline_recorded_iq_poc",
+  "cloud_spend_usd": 0
+}

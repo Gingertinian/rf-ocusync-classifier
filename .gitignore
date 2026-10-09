@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+training-output/
+*.zip
+*.rar
+experiments/rfuav_images/weights/
+experiments/rfuav_images/samples/
+experiments/rfuav_images/adaptation/samples/
+experiments/rfuav_images/detector/samples/
+experiments/rfuav_images/open_set/samples/
+captures/

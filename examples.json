@@ -1,0 +1,34 @@
+[
+  {
+    "file": "signal_01.iq",
+    "expected": "OCU2",
+    "sha256": "8e25c29206da4bd567636a20c9b2f2f86422375dea2b7a1f11d937d485e72c79",
+    "source_capture_sha256": "99c1c45271bd3b6bde7123c54ebd4507d7ad26fae35e1eb985c2ff638d6b064d",
+    "source_window_start_sample": 21000000,
+    "real_recording": true
+  },
+  {
+    "file": "signal_02.iq",
+    "expected": "OCU3",
+    "sha256": "3fdd098834c24a4636d5e0adb472e75c12117921088ddd0249933a9e5550b73e",
+    "source_capture_sha256": "610f1c4666a4d1c83e12bf956c2dbed7ab5894b83936353fd8bcc84520beb97c",
+    "source_window_start_sample": 21000000,
+    "real_recording": true
+  },
+  {
+    "file": "signal_03.iq",
+    "expected": "OCU4",
+    "sha256": "e3089f8d058abb678fc0fa4a3b4e6808f433ec8b83aa0c1db526cb0066d1892c",
+    "source_capture_sha256": "88f7f73450d08c1568043efe0e6b51fad1d8e74c466afa3583d9e0d9f576771d",
+    "source_window_start_sample": 21000000,
+    "real_recording": true
+  },
+  {
+    "file": "signal_04.iq",
+    "expected": "UNKNOWN",
+    "sha256": "d6826ae3b259504aeb438434fd3979927b923c83c6dbc4af28c3a80156afba55",
+    "source_capture_sha256": "5612853a4811f9691a1b998b44d72a879cf8a5810c2e043d5be75b523122d721",
+    "source_window_start_sample": 0,
+    "real_recording": true
+  }
+]
