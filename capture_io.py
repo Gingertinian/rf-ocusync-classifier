@@ -1,21 +1,4 @@
-"""Passive, bounded raw I/Q file input; no radio access or class inference.
-
-Raw cf32/ci16 files require an explicit format and sample rate. ci16 components
-are scaled by 32768; floating-point components retain their original scale.
-SigMF support is deliberately limited to single-channel, conforming datasets
-with zero offset and at most one capture starting at sample zero. Supported
-datatypes are cf32_le, cf32_be, ci16_le and ci16_be. Center frequency is optional
-and remains unknown when absent. Byte alignment covers the entire file; finite
-value checks cover only the selected samples.
-
-The numeric STFT uses symmetric Hamming/Hann windows, coherent-gain scaling,
-two-sided FFT-shifted frequencies, complete frames and no boundary padding.
-It is not RFUAV's MATLAB image conversion or a drop-in model input transform.
-
-CLI (stdout only):
-  python -B capture_io.py inspect recording.iq --format cf32 --sample-rate 1e6
-  python -B capture_io.py inspect recording.sigmf-meta --max-samples 1000000
-"""
+"""Bounded cf32, ci16 and single-channel SigMF readers and spectral transforms."""
 
 from __future__ import annotations
 
@@ -162,11 +145,7 @@ def _stream_size(stream: BinaryIO) -> int:
 
 def iter_iq(stream: BinaryIO, metadata: CaptureMetadata, *, start_sample=0,
             max_samples=DEFAULT_MAX_SAMPLES, chunk_samples=DEFAULT_CHUNK_SAMPLES) -> Iterator[np.ndarray]:
-    """Yield complex64 arrays using bounded reads, including short-read handling.
-
-    The stream must stay open while iterating. No unselected samples are decoded.
-    Integer rail statistics can be recovered from the fixed /32768 scaling.
-    """
+    """Yield selected complex64 chunks. Keep the stream open while iterating."""
     start = _integer(start_sample, "start_sample")
     limit = _integer(max_samples, "max_samples", 1)
     chunk = _integer(chunk_samples, "chunk_samples", 1, MAX_CHUNK_SAMPLES)
@@ -298,12 +277,7 @@ def inspect_capture(capture: FileCapture, *, start_sample=0, max_samples=DEFAULT
 def compute_stft(samples: np.ndarray, sample_rate, *, n_fft=1024, hop_length=None,
                  window="hamming", center_frequency=None,
                  max_output_bytes=MAX_SPECTROGRAM_BYTES) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    """Return frequency offsets (or absolute Hz), frame-center seconds and STFT.
-
-    Complete windows only; no padding or implied RF band. Allocation is bounded
-    before creating the frequency-by-time matrix. For longer inputs, process
-    overlapping bounded selections and retain the desired cross-chunk overlap.
-    """
+    """Return frequencies, frame-center seconds and STFT without padding."""
     if not isinstance(samples, np.ndarray) or samples.ndim != 1 or samples.dtype.kind != "c":
         raise CaptureError("STFT requires a one-dimensional complex numpy array")
     if samples.size > MAX_ARRAY_SAMPLES or not np.isfinite(samples).all():

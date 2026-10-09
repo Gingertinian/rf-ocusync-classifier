@@ -1,11 +1,6 @@
-import sys
-from pathlib import Path
-
 import numpy as np
 from scipy.signal import stft, windows
 
-if not (Path(__file__).resolve().parent / "capture_io.py").is_file():
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from capture_io import CaptureError, open_capture
 
 
@@ -48,7 +43,6 @@ def extract(samples):
     frequency_std = coarse.std(1)
     frequency_p90 = np.percentile(coarse, 90, axis=1)
     frequency_p10 = np.percentile(coarse, 10, axis=1)
-    # Amplitude-independent temporal distribution across the full selected band.
     frame_energy = np.mean(np.abs(values.reshape(1000, 1000)) ** 2, axis=1)
     energy_summary = [float(np.std(frame_energy)), float(np.percentile(frame_energy, 95)),
                       float(np.percentile(frame_energy, 5)), float(np.mean(frame_energy > 2))]

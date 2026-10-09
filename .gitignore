@@ -13,3 +13,9 @@ experiments/rfuav_images/adaptation/samples/
 experiments/rfuav_images/detector/samples/
 experiments/rfuav_images/open_set/samples/
 captures/
+*.part
+experiments/rfuav_images/demo.html
+experiments/rfuav_images/results.json
+experiments/rfuav_images/results.csv
+experiments/rfuav_images/open_set/results.json
+experiments/rfuav_images/open_set/selection.json

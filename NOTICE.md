@@ -20,6 +20,5 @@ and generated negative controls. It does not use the RFUAV pretrained image
 checkpoint. The small heads in `experiments/rfuav_images` were fitted on
 features from that separately downloaded upstream checkpoint.
 
-No confidential commissioned code, correspondence, credentials, acquisition
-device identifiers or private contact details are included. Original
-software has no additional license grant. Third-party terms are unaffected.
+Original software has no additional license grant. Third-party terms are
+unaffected.

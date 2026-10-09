@@ -29,7 +29,7 @@ SOURCE_URLS = (
     "https://www.dji.com/mini-4-pro/specs",
 )
 LIMITS = (
-    "Public RFUAV checkpoint, not the previous commissioned model.",
+    "Public RFUAV ResNet18 checkpoint.",
     "Offline spectrogram images; no physical receiver or live RF test.",
     "Five known DJI equipment classes; background, Wi-Fi and unknown devices are not validated.",
     "The link family is looked up from the predicted equipment model, not decoded or independently classified.",

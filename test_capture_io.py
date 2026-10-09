@@ -1,8 +1,4 @@
-"""Synthetic unit tests for input plumbing only; no RF measurement or labels.
-
-All fixtures stay in BytesIO. No captures, metadata, model outputs or other
-files are written; run with python -B to suppress bytecode caches as well.
-"""
+"""Reader and STFT tests using in-memory fixtures."""
 
 import io
 import json
